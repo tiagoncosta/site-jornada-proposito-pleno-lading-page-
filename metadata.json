@@ -1,0 +1,7 @@
+{
+  "name": "Elegance Page Analyzer",
+  "description": "A high-end landing page structural analysis tool designed to audit conversion paths and aesthetic hierarchy for lifestyle and luxury brands.",
+  "requestFramePermissions": [
+    "camera"
+  ]
+}
