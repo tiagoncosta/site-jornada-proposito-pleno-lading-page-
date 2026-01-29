@@ -233,7 +233,7 @@ const App: React.FC = () => {
             <div className="reveal p-10 bg-white/5 border border-white/10 rounded-sm hover:bg-white/10 transition-all flex flex-col items-center text-center md:items-start md:text-left h-full">
               <UserGroupIcon className="w-12 h-12 text-[#b37a5d] mb-8" />
               <h4 className="text-xl font-bold uppercase mb-4 tracking-tight">Comunidade</h4>
-              <p className="text-sm opacity-60 leading-relaxed">Grupo exclusivo com troca de experiências, conteúdos inéditos e chamadas semanais ao vivo.</p>
+              <p className="text-sm opacity-60 leading-relaxed">Grupo exclusivo com serviço de suporte, conteúdos inéditos e chamadas semanais ao vivo.</p>
             </div>
           </div>
         </div>
@@ -267,9 +267,19 @@ const App: React.FC = () => {
                   <span>Material Didático</span>
                   <span className="whitespace-nowrap ml-4 text-stone-400">R$ 1.000,00</span>
                 </li>
-                <li className="flex flex-col sm:flex-row justify-between text-2xl serif pt-8 text-[#b37a5d] items-start sm:items-center">
-                  <span>Total em Valor</span>
-                  <span className="font-bold">R$ 5.000,00</span>
+                <li className="flex flex-col pt-8">
+                  <div className="flex flex-col sm:flex-row justify-between text-2xl serif items-start sm:items-center text-[#b37a5d]">
+                    <span>Total em Valor</span>
+                    <span className="font-bold">R$ 5.000,00</span>
+                  </div>
+                  
+                  {/* Highlighted box for the discount hook */}
+                  <div className="mt-8 p-6 bg-[#b37a5d]/5 border border-[#b37a5d]/20 rounded-sm text-center relative overflow-hidden group">
+                    <div className="absolute top-0 left-0 w-1 h-full bg-[#b37a5d]"></div>
+                    <p className="text-sm md:text-base font-bold italic text-[#b37a5d] leading-relaxed">
+                      "se eu te desse 70% de desconto seria nosso membro agora?"
+                    </p>
+                  </div>
                 </li>
               </ul>
             </div>
