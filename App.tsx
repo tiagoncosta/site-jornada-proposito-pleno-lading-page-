@@ -223,7 +223,7 @@ const App: React.FC = () => {
             <div className="reveal p-10 bg-white/5 border border-white/10 rounded-sm hover:bg-white/10 transition-all flex flex-col items-center text-center md:items-start md:text-left h-full">
               <VideoCameraIcon className="w-12 h-12 text-[#b37a5d] mb-8" />
               <h4 className="text-xl font-bold uppercase mb-4 tracking-tight">14 Módulos</h4>
-              <p className="text-sm opacity-60 leading-relaxed">Videoaulas profundas divididas em módulos estratégicos para cada pilar da sua jornada.</p>
+              <p className="text-sm opacity-60 leading-relaxed">Video aulas profundas divididas em módulos estratégicos para cada pilar da sua jornada.</p>
             </div>
             <div className="reveal p-10 bg-white/5 border border-white/10 rounded-sm hover:bg-white/10 transition-all flex flex-col items-center text-center md:items-start md:text-left h-full">
               <BookOpenIcon className="w-12 h-12 text-[#b37a5d] mb-8" />
