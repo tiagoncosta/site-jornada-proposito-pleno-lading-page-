@@ -71,7 +71,7 @@ const App: React.FC = () => {
             </h1>
             <div className="w-20 h-1 bg-[#433832] mb-8"></div>
             <p className="text-lg md:text-2xl font-light leading-relaxed mb-10 text-[#433832] max-w-xl">
-              Um programa de devocionais de 14 semanas desenhado para alinhar cada aspect da vida ao seu chamado divino.
+              Um programa de devocionais de 14 semanas desenhado para alinhar cada aspecto da vida ao seu chamado divino.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
               <a href={checkoutLink} target="_blank" rel="noopener noreferrer" className="bg-[#433832] text-white px-10 py-5 rounded-sm font-bold uppercase tracking-[0.2em] text-xs hover:bg-[#b37a5d] transition-all text-center shadow-xl">
@@ -296,18 +296,18 @@ const App: React.FC = () => {
               </div>
 
               {/* Added Benefit Phrases */}
-              <div className="space-y-4 mb-10 mt-4 border-t border-white/10 pt-8 flex flex-col items-center md:items-start">
-                <div className="flex items-center space-x-3 text-sm opacity-90">
+              <div className="space-y-4 mb-10 mt-6 border-t border-white/10 pt-8 flex flex-col items-center sm:items-start">
+                <div className="flex items-center space-x-3">
                   <CheckBadgeIcon className="w-5 h-5 text-[#b37a5d]" />
-                  <span className="font-medium tracking-wide">Acesso Imediato</span>
+                  <span className="text-sm font-medium tracking-wide opacity-90">Acesso Imediato</span>
                 </div>
-                <div className="flex items-center space-x-3 text-sm opacity-90">
+                <div className="flex items-center space-x-3">
                   <CheckBadgeIcon className="w-5 h-5 text-[#b37a5d]" />
-                  <span className="font-medium tracking-wide">Todos os 5 Pilares Inclusos</span>
+                  <span className="text-sm font-medium tracking-wide opacity-90">Todos os 5 Pilares Inclusos</span>
                 </div>
-                <div className="flex items-center space-x-3 text-sm opacity-90">
+                <div className="flex items-center space-x-3">
                   <CheckBadgeIcon className="w-5 h-5 text-[#b37a5d]" />
-                  <span className="font-medium tracking-wide">7 Dias de Garantia Total</span>
+                  <span className="text-sm font-medium tracking-wide opacity-90">7 Dias de Garantia Total</span>
                 </div>
               </div>
 
