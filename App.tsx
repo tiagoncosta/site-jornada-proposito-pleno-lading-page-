@@ -71,7 +71,7 @@ const App: React.FC = () => {
             </h1>
             <div className="w-20 h-1 bg-[#433832] mb-8"></div>
             <p className="text-lg md:text-2xl font-light leading-relaxed mb-10 text-[#433832] max-w-xl">
-              Um programa de devocionais de 14 semanas desenhado para alinhar cada aspecto da vida ao seu chamado divino.
+              Um programa de devocionais de 14 semanas desenhado para alinhar cada aspect da vida ao seu chamado divino.
             </p>
             <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
               <a href={checkoutLink} target="_blank" rel="noopener noreferrer" className="bg-[#433832] text-white px-10 py-5 rounded-sm font-bold uppercase tracking-[0.2em] text-xs hover:bg-[#b37a5d] transition-all text-center shadow-xl">
@@ -286,7 +286,7 @@ const App: React.FC = () => {
 
             <div className="bg-[#433832] text-white p-10 md:p-12 shadow-2xl relative reveal border-t-8 border-[#b37a5d] flex flex-col">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#b37a5d] text-white px-8 py-2 text-[10px] font-black uppercase tracking-[0.4em] whitespace-nowrap z-20">Oferta Exclusiva</div>
-              <div className="text-center py-8">
+              <div className="text-center pt-8">
                 <span className="block text-white/30 line-through text-sm mb-6 font-medium">De R$ 5.000,00 por R$ 1.775,60</span>
                 <span className="text-[10px] uppercase font-black tracking-widest block mb-6 opacity-60">Invista hoje apenas</span>
                 <div className="flex items-center justify-center space-x-2 mb-4">
@@ -294,6 +294,23 @@ const App: React.FC = () => {
                   <span className="text-5xl md:text-7xl font-bold serif text-[#b37a5d]">118,37</span>
                 </div>
               </div>
+
+              {/* Added Benefit Phrases */}
+              <div className="space-y-4 mb-10 mt-4 border-t border-white/10 pt-8 flex flex-col items-center md:items-start">
+                <div className="flex items-center space-x-3 text-sm opacity-90">
+                  <CheckBadgeIcon className="w-5 h-5 text-[#b37a5d]" />
+                  <span className="font-medium tracking-wide">Acesso Imediato</span>
+                </div>
+                <div className="flex items-center space-x-3 text-sm opacity-90">
+                  <CheckBadgeIcon className="w-5 h-5 text-[#b37a5d]" />
+                  <span className="font-medium tracking-wide">Todos os 5 Pilares Inclusos</span>
+                </div>
+                <div className="flex items-center space-x-3 text-sm opacity-90">
+                  <CheckBadgeIcon className="w-5 h-5 text-[#b37a5d]" />
+                  <span className="font-medium tracking-wide">7 Dias de Garantia Total</span>
+                </div>
+              </div>
+
               <a href={checkoutLink} target="_blank" rel="noopener noreferrer" className="block w-full bg-[#b37a5d] hover:bg-[#c98b6d] text-white py-6 rounded-sm font-black uppercase tracking-[0.4em] text-sm transition-all shadow-xl active:scale-95 text-center mt-auto">
                 Garantir Minha Vaga
               </a>
