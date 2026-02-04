@@ -1,9 +1,11 @@
-
 import { GoogleGenAI, Type } from "@google/genai";
 import { AnalysisResult } from "../types";
 
 export const analyzeLandingPage = async (url: string, context: string): Promise<AnalysisResult> => {
-  const ai = new GoogleGenAI({ apiKey: process.env.API_KEY || '' });
+  // Verificação segura para evitar erro de "process is not defined"
+  const apiKey = typeof process !== 'undefined' ? process.env.API_KEY : '';
+  
+  const ai = new GoogleGenAI({ apiKey: apiKey || '' });
   
   const response = await ai.models.generateContent({
     model: "gemini-3-pro-preview",

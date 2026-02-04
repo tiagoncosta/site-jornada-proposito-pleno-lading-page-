@@ -49,9 +49,6 @@ const App: React.FC = () => {
             <span className="text-xs font-bold tracking-[0.3em] uppercase text-[#433832] hidden sm:block">Jornada Propósito Pleno</span>
             <span className="text-[10px] font-bold tracking-[0.2em] uppercase text-[#433832] sm:hidden">Propósito Pleno</span>
           </div>
-          <a href={checkoutLink} target="_blank" rel="noopener noreferrer" className="text-[10px] font-bold uppercase tracking-widest bg-[#433832] text-white px-5 py-2.5 hover:bg-[#b37a5d] transition-all rounded-sm shadow-sm whitespace-nowrap">
-            Quero Me Inscrever
-          </a>
         </div>
       </nav>
 
@@ -73,11 +70,7 @@ const App: React.FC = () => {
             <p className="text-lg md:text-2xl font-light leading-relaxed mb-10 text-[#433832] max-w-xl">
               Um programa de devocionais de 14 semanas desenhado para alinhar cada aspecto da vida ao seu chamado divino.
             </p>
-            <div className="flex flex-col sm:flex-row gap-4 w-full sm:w-auto">
-              <a href={checkoutLink} target="_blank" rel="noopener noreferrer" className="bg-[#433832] text-white px-10 py-5 rounded-sm font-bold uppercase tracking-[0.2em] text-xs hover:bg-[#b37a5d] transition-all text-center shadow-xl">
-                Começar Minha Jornada
-              </a>
-            </div>
+            {/* O botão "Começar Minha Jornada" foi removido conforme solicitado */}
           </div>
           
           <div className="reveal flex justify-center order-first md:order-last mb-12 md:mb-0">
@@ -212,7 +205,7 @@ const App: React.FC = () => {
       </section>
 
       {/* DELIVERABLES SECTION */}
-      <section className="py-32 bg-[#433832] text-white px-6">
+      <section id="entregas" className="py-32 bg-[#433832] text-white px-6">
         <div className="max-w-6xl mx-auto">
           <div className="text-center mb-24 reveal">
             <h2 className="text-4xl md:text-6xl serif mb-6">O que você vai receber</h2>
@@ -276,7 +269,7 @@ const App: React.FC = () => {
                   {/* Highlighted box for the discount hook */}
                   <div className="mt-8 p-6 bg-[#b37a5d]/5 border border-[#b37a5d]/20 rounded-sm text-center relative overflow-hidden group">
                     <div className="absolute top-0 left-0 w-1 h-full bg-[#b37a5d]"></div>
-                    <p className="text-sm md:text-base font-bold italic text-[#b37a5d] leading-relaxed">
+                    <p className="text-sm md:text-base font-bold italic text-[#b37a5d] Bird-relaxed">
                       "se eu te desse 70% de desconto seria nosso membro agora?"
                     </p>
                   </div>
@@ -373,7 +366,7 @@ const App: React.FC = () => {
 
       {/* WhatsApp FAB */}
       <a href={whatsappLink} target="_blank" rel="noopener noreferrer" className="fixed bottom-6 right-6 z-50 w-14 h-14 bg-[#25D366] text-white rounded-full flex items-center justify-center shadow-2xl hover:scale-110 active:scale-95 transition-all">
-         <svg className="w-7 h-7 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.888 11.888-11.888 3.176 0 6.161 1.237 8.404 3.48s3.481 5.229 3.481 8.406c0 6.555-5.332 11.887-11.887 11.887-2.007 0-3.974-.506-5.717-1.472l-6.268 1.7zm11.831-21.68c-5.419 0-9.828 4.409-9.828 9.829 0 2.122.674 4.088 1.821 5.698l-1.121 4.09 4.195-1.103c1.516.828 3.22 1.265 4.953 1.265 5.418 0 9.828-4.41 9.828-9.829 0-2.624-1.022-5.091-2.878-6.946-1.857-1.856-4.324-2.877-6.947-2.877zm5.385 13.047c-.295-.147-1.742-.859-2.012-.957-.27-.098-.466-.147-.662.147-.196.295-.76.957-.931 1.154-.171.196-.343.221-.637.074-.294-.148-1.243-.458-2.368-1.462-.876-.782-1.467-1.748-1.639-2.043-.171-.295-.018-.455.13-.601.133-.131.295-.343.442-.515.147-.172.196-.295.295-.49.098-.196.05-.368-.024-.515-.074-.147-.662-1.595-.908-2.184-.24-.574-.484-.497-.662-.505-.171-.008-.368-.01-.565-.01s-.515.074-.785.368c-.27.294-1.03 1.006-1.03 2.454 0 1.448 1.055 2.846 1.202 3.042.147.196 2.074 3.167 5.023 4.444.701.304 1.248.485 1.674.621.705.224 1.346.193 1.853.117.565-.085 1.742-.712 1.987-1.4.246-.687.246-1.277.172-1.4-.074-.123-.27-.197-.565-.344z"/></svg>
+         <svg className="w-7 h-7 fill-current" viewBox="0 0 24 24"><path d="M.057 24l1.687-6.163c-1.041-1.804-1.588-3.849-1.588-5.946 0-6.556 5.332-11.888 11.888-11.888 3.176 0 6.161 1.237 8.404 3.48s3.481 5.229 3.481 8.406c0 6.555-5.332 11.887-11.887 11.887-2.007 0-3.974-.506-5.717-1.472l-6.268 1.7zm11.831-21.68c-5.419 0-9.828 4.409-9.828 9.829 0 2.122.674 4.088 1.821 5.698l-1.121 4.09 4.195-1.103c1.516.828 3.22 1.265 4.953 1.265 5.418 0 9.828-4.41 9.828-9.829 0-2.624-1.022-5.091-2.878-6.946-1.857-1.856-4.324-2.877-6.947-2.877zm5.385 13.047c-.295-.147-1.742-.859-2.012-.957-.27-.098-.466-.147-.662.147-.196.295-.76.957-.931 1.154-.171.196-.343.221-.637.074-.294-.148-1.243-.458-2.368-1.462-.876-.782-1.467-1.748-1.639-2.043-.171-.295-.018-.455.13-.601.133-.131.295-.343.442-.515.147-.172.196-.343.442-.515.147-.172.196-.295.295-.49.098-.196.05-.368-.024-.515-.074-.147-.662-1.595-.908-2.184-.24-.574-.484-.497-.662-.505-.171-.008-.368-.01-.565-.01s-.515.074-.785.368c-.27.294-1.03 1.006-1.03 2.454 0 1.448 1.055 2.846 1.202 3.042.147.196 2.074 3.167 5.023 4.444.701.304 1.248.485 1.674.621.705.224 1.346.193 1.853.117.565-.085 1.742-.712 1.987-1.4.246-.687.246-1.277.172-1.4-.074-.123-.27-.197-.565-.344z"/></svg>
       </a>
 
     </div>
