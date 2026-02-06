@@ -269,8 +269,8 @@ const App: React.FC = () => {
                   {/* Highlighted box for the discount hook */}
                   <div className="mt-8 p-6 bg-[#b37a5d]/5 border border-[#b37a5d]/20 rounded-sm text-center relative overflow-hidden group">
                     <div className="absolute top-0 left-0 w-1 h-full bg-[#b37a5d]"></div>
-                    <p className="text-sm md:text-base font-bold italic text-[#b37a5d] Bird-relaxed">
-                      "se eu te desse 70% de desconto seria nosso membro agora?"
+                    <p className="text-sm md:text-base font-bold italic text-[#b37a5d] leading-relaxed">
+                      "se eu te desse 80% de desconto seria nosso membro agora?"
                     </p>
                   </div>
                 </li>
