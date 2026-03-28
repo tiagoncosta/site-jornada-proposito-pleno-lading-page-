@@ -281,7 +281,7 @@ const App: React.FC = () => {
                 <span className="text-[10px] uppercase font-black tracking-widest block mb-6 opacity-60">Invista hoje apenas</span>
                 <div className="flex items-center justify-center space-x-2 mb-4">
                   <span className="text-xl md:text-2xl font-light italic serif">10x de</span>
-                  <span className="text-5xl md:text-7xl font-bold serif text-[#b37a5d]">118,37</span>
+                  <span className="text-5xl md:text-7xl font-bold serif text-[#b37a5d]">65,74</span>
                 </div>
               </div>
 
