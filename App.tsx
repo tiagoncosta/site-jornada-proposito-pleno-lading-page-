@@ -226,7 +226,7 @@ const App: React.FC = () => {
             <div className="reveal p-10 bg-white/5 border border-white/10 rounded-sm hover:bg-white/10 transition-all flex flex-col items-center text-center md:items-start md:text-left h-full">
               <UserGroupIcon className="w-12 h-12 text-[#b37a5d] mb-8" />
               <h4 className="text-xl font-bold uppercase mb-4 tracking-tight">Comunidade</h4>
-              <p className="text-sm opacity-60 leading-relaxed">Grupo exclusivo com serviço de suporte, conteúdos inéditos e chamadas semanais ao vivo.</p>
+              <p className="text-sm opacity-60 leading-relaxed">Grupo exclusivo com serviço de suporte, conteúdos inéditos.</p>
             </div>
           </div>
         </div>
@@ -248,10 +248,7 @@ const App: React.FC = () => {
                   <span>Portal de Membros</span>
                   <span className="whitespace-nowrap ml-4 text-stone-400">R$ 2.000,00</span>
                 </li>
-                <li className="flex justify-between border-b border-stone-100 pb-4 items-center">
-                  <span>Chamadas ao Vivo</span>
-                  <span className="whitespace-nowrap ml-4 text-stone-400">R$ 1.000,00</span>
-                </li>
+  
                 <li className="flex justify-between border-b border-stone-100 pb-4 items-center">
                   <span>Grupo Exclusivo</span>
                   <span className="whitespace-nowrap ml-4 text-stone-400">R$ 1.000,00</span>
@@ -263,7 +260,7 @@ const App: React.FC = () => {
                 <li className="flex flex-col pt-8">
                   <div className="flex flex-col sm:flex-row justify-between text-2xl serif items-start sm:items-center text-[#b37a5d]">
                     <span>Total em Valor</span>
-                    <span className="font-bold">R$ 5.000,00</span>
+                    <span className="font-bold">R$ 4.000,00</span>
                   </div>
                   
                   {/* Highlighted box for the discount hook */}
@@ -280,7 +277,7 @@ const App: React.FC = () => {
             <div className="bg-[#433832] text-white p-10 md:p-12 shadow-2xl relative reveal border-t-8 border-[#b37a5d] flex flex-col">
               <div className="absolute -top-4 left-1/2 -translate-x-1/2 bg-[#b37a5d] text-white px-8 py-2 text-[10px] font-black uppercase tracking-[0.4em] whitespace-nowrap z-20">Oferta Exclusiva</div>
               <div className="text-center pt-8">
-                <span className="block text-white/30 line-through text-sm mb-6 font-medium">De R$ 5.000,00 por R$ 1.775,60</span>
+                <span className="block text-white/30 line-through text-sm mb-6 font-medium">De R$ 4.000,00 por R$ 1.775,60</span>
                 <span className="text-[10px] uppercase font-black tracking-widest block mb-6 opacity-60">Invista hoje apenas</span>
                 <div className="flex items-center justify-center space-x-2 mb-4">
                   <span className="text-xl md:text-2xl font-light italic serif">10x de</span>
