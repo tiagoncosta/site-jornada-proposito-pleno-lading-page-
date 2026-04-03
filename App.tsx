@@ -280,7 +280,7 @@ const App: React.FC = () => {
                 <span className="block text-white/30 line-through text-sm mb-6 font-medium">De R$ 4.000,00 por R$ 1.775,60</span>
                 <span className="text-[10px] uppercase font-black tracking-widest block mb-6 opacity-60">Invista hoje apenas</span>
                 <div className="flex items-center justify-center space-x-2 mb-4">
-                  <span className="text-xl md:text-2xl font-light italic serif">10x de</span>
+                  <span className="text-xl md:text-2xl font-light italic serif">12x de</span>
                   <span className="text-5xl md:text-7xl font-bold serif text-[#b37a5d]">65,74</span>
                 </div>
               </div>
